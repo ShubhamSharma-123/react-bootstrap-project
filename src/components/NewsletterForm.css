@@ -1,0 +1,61 @@
+.newsletter-section {
+    background-color: #f9f1f0; /* Light pink background to match the screenshot */
+  }
+  
+  h6 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #6c757d;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #343a40;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #6c757d;
+    margin-bottom: 40px;
+  }
+  
+  .newsletter-input {
+    border-radius: 50px 0 0 50px; /* Rounded left border to match the screenshot */
+    padding: 15px;
+    border-color: #ced4da;
+  }
+  
+  .subscribe-button {
+    border-radius: 0 50px 50px 0; /* Rounded right border for the button */
+    padding: 15px 30px;
+    font-weight: bold;
+    background-color: #6dbd73; /* Matching the green button */
+    border-color: #6dbd73;
+    margin-left: -5px; /* Removes any gaps between input and button */
+  }
+  
+  .subscribe-button:hover {
+    background-color: #5aa860; /* Darker green on hover */
+  }
+  
+  button[type="submit"] {
+    font-size: 1rem;
+  }
+  
+  @media (max-width: 576px) {
+    /* For small screens (mobile) */
+    .d-flex {
+      flex-direction: column;
+    }
+  
+    .newsletter-input {
+      border-radius: 50px; /* Rounded corners for mobile */
+      margin-bottom: 10px; /* Separate the button and input */
+    }
+  
+    .subscribe-button {
+      border-radius: 50px; /* Rounded corners for mobile */
+    }
+  }
+  

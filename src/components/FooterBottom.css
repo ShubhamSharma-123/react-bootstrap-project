@@ -1,0 +1,21 @@
+.footer-bottom {
+    background-color: #f8f9fa;
+    color: #6c757d;
+    border-top: 1px solid #e9ecef;
+  }
+  
+  .footer-bottom p {
+    font-size: 0.875rem;
+    margin-bottom: 0;
+  }
+  
+  .footer-icon {
+    color: #6dbd73; /* Green color for the social media icons */
+    font-size: 1.25rem;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-icon:hover {
+    color: #4a8b58; /* Slightly darker green on hover */
+  }
+  

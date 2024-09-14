@@ -1,0 +1,77 @@
+/* Custom Navbar Styles */
+.custom-navbar {
+    background-color: #fdf5f4e1;
+    padding: 1rem 0;
+    font-family: 'Arial', sans-serif; /* Make sure this matches the design */
+    font-size: 16px; /* Base font size */
+  
+  }
+  
+  .custom-navbar .brand-name {
+    font-weight: 600;
+    font-size: 1.5rem; /* Slightly larger brand font */
+    color: #2C2C2C;
+  }
+  
+  .custom-navbar .nav-link-custom {
+    margin-right: 1rem;
+    font-size: 1rem;
+    color: #2C2C2C !important;
+  }
+  
+  .custom-navbar .login-link {
+    color: #28A745 !important;
+  }
+  
+  .join-us-btn {
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 25px;
+  }
+  
+  /* Hero Section Styles */
+  .hero-section {
+    background-color: #FDF5F4;
+    min-height: 80vh;
+    font-family: 'Arial', sans-serif; /* Same font family for the hero section */
+  }
+  
+  .hero-heading {
+    font-size: 3rem; /* Font size for the heading */
+    color: #2C2C2C;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+  }
+  
+  .hero-subtext {
+    font-size: 1.125rem;
+    color: #6C757D;
+    margin-bottom: 2rem;
+  }
+  
+  .welcome-text {
+    font-size: 1.2rem;
+    color: #28A745;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Image Container */
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .hero-heading {
+      font-size: 2.5rem;
+    }
+  
+    .hero-subtext {
+      font-size: 1rem;
+    }
+  }
+  
+  
+  

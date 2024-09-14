@@ -1,0 +1,46 @@
+.footer-section {
+    background-color: #f8f9fa;
+    color: #343a40;
+  }
+  
+  .footer-title {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #343a40;
+  }
+  
+  .list-unstyled {
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  .list-unstyled li {
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem;
+  }
+  
+  .contact-info li {
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+  }
+  
+  .contact-info li svg {
+    font-size: 1rem;
+    color: #6dbd73; /* Same green as in previous sections */
+  }
+  
+  @media (max-width: 576px) {
+    .footer-title {
+      font-size: 0.9rem;
+    }
+    
+    .list-unstyled li {
+      font-size: 0.8rem;
+    }
+    
+    .contact-info li {
+      font-size: 0.8rem;
+    }
+  }
+  
